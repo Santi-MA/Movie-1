@@ -660,3 +660,89 @@ img{
 .bay .button:hover{
     transform: scale(1.1);
 }
+
+.bay-cards{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    left: 90px;
+}
+
+.bay-cards .button-cards{
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: #eb3b0a;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: .5s;
+    padding: 10px 15px;
+
+}
+
+.bay-cards .button-cards:hover{
+    transform: scale(1.1);
+}
+
+/* reponsive */
+@media screen and (max-width: 650px) {
+    /* encabezado */
+    header{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-menu .header-superior{
+        width: 100%;
+        display: block;
+    }
+
+    .container-menu nav ul{
+        width: 100%;
+        position: absolute;
+        display: block;
+        background-color: #000;
+        top: 100%;
+        right: 0;
+        left: 0;
+        z-index: 3;
+        padding-top: 20px;
+        height: auto;
+    }
+
+    .container-menu ul li{
+        width: 100%;
+        position: static;
+    }
+    .container-menu ul li a{
+        width: auto;
+        float: none;
+        color: #fff;
+        display: block;
+        margin-left: 25px;
+        
+    }
+
+    .container__slider{
+        width: 100%;
+        margin-top: 75px;
+        margin-bottom: 80px;
+        
+    }
+
+    .title{
+        width: 100%;
+        margin-top: 393px;
+        padding-top: 20px;
+
+    }
+
+
+
+
+
+
+}
